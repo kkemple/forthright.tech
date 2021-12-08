@@ -1,0 +1,9 @@
+.divider {
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  background: var(--divider-image) repeat top left;
+  background-size: 350px; /* nice */
+  border-top: 2px solid var(--gradient-start);
+  border-bottom: 2px solid var(--gradient-end);
+}

@@ -1,0 +1,196 @@
+/*
+  CSS reset from https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* End reset */
+
+html,
+body {
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-weight: 400;
+  --small-text: 0.75rem;
+}
+
+h1 {
+  font-size: 3.052rem;
+  font-weight: 600;
+  /* text-shadow: 2px 2px 0 var(--text-shadow-color); */
+}
+
+h2 {
+  font-size: 2.441rem;
+  font-weight: 600;
+  /* text-shadow: 2px 2px 0 var(--text-shadow-color); */
+}
+
+h3 {
+  font-size: 1.953rem;
+  font-weight: 600;
+  /* text-shadow: 1px 1px 0 var(--text-shadow-color); */
+}
+
+h4 {
+  font-size: 1.563rem;
+  font-weight: 600;
+  /* text-shadow: 1px 1px 0 var(--text-shadow-color); */
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter";
+  color: var(--text-color);
+}
+
+a {
+  color: var(--gradient-start);
+}
+
+a:hover,
+a:active {
+  color: var(--gradient-end);
+}
+
+.app {
+  --background: #f7fafc;
+  --text-color: #020203;
+  --gradient-start: #7317e9;
+  --gradient-end: #9f0000;
+  --divider-image: url(/icon-pattern-light.svg);
+  background-color: var(--background);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+.app.dark {
+  --background: #020203;
+  --text-color: #f7fafc;
+  --gradient-start: #fb07a9;
+  --gradient-end: #f7ff00;
+  --divider-image: url(/icon-pattern-dark.svg);
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.gradient,
+hr {
+  background: var(--gradient-start);
+  background: -webkit-linear-gradient(
+    to right,
+    var(--gradient-start),
+    var(--gradient-end)
+  );
+  background: linear-gradient(
+    to right,
+    var(--gradient-start),
+    var(--gradient-end)
+  );
+}
+
+.gradient-text {
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+@media (max-width: 720px) {
+  html,
+  body {
+    font-size: 15px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
