@@ -28,6 +28,10 @@ export default function Index() {
             <div className={styles.service}></div>
           </div>
           <div className={styles.category}>
+            <h3>Champions Program Strategy</h3>
+            <div className={styles.service}></div>
+          </div>
+          <div className={styles.category}>
             <h3>Developer Experience Audits</h3>
             <div className={styles.service}></div>
           </div>
