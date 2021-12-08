@@ -19,18 +19,22 @@
   text-transform: uppercase;
   display: inline-block;
   margin-bottom: 64px;
+  color: var(--gradient-start);
 }
 
 .services {
-  display: flex;
+  display: grid;
   width: 100%;
-  justify-content: space-around;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 48px;
+  grid-row-gap: 48px;
 }
 
 .category h3 {
   font-size: 1.3rem;
   font-weight: 600;
-  color: var(--gradient-start);
+  color: var(--gradient-end);
+  text-align: center;
 }
 
 .learnMore {

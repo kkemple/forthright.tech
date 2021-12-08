@@ -13,7 +13,7 @@ export default function Index() {
       </div>
       <SectionDivider />
       <div className={styles.section}>
-        <h2 className="gradient gradient-text">Services</h2>
+        <h2>Services</h2>
         <div className={styles.services}>
           <div className={styles.category}>
             <h3>Content Strategy</h3>
@@ -43,19 +43,15 @@ export default function Index() {
             <h3>Emergency Staffing</h3>
             <div className={styles.service}></div>
           </div>
-          <div className={styles.category}>
-            <h3>Sourcing</h3>
-            <div className={styles.service}></div>
-          </div>
         </div>
       </div>
       <SectionDivider />
       <div className={styles.section}>
-        <h2 className="gradient gradient-text">For Individuals</h2>
+        <h2>For Individuals</h2>
       </div>
       <SectionDivider />
       <div className={styles.section}>
-        <h2 className="gradient gradient-text">About Me</h2>
+        <h2>About Me</h2>
         <div className={styles.learnMore}>
           <img className={styles.profilePic} src="/profile-pic-squircle.png" />
           <p>
