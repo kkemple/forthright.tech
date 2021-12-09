@@ -13,7 +13,7 @@ export default function Index() {
       </div>
       <SectionDivider />
       <div className={styles.section}>
-        <h2>Services</h2>
+        <h2>How Can I Help?</h2>
         <div className={styles.services}>
           <div className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
@@ -139,11 +139,107 @@ export default function Index() {
       </div>
       <SectionDivider />
       <div className={styles.section}>
-        <h2>Level Up with Labs</h2>
+        <h2>Level Up Your Team with Labs</h2>
+        <div className={styles.services}>
+          <div className={`${styles.categoryContainer} gradient`}>
+            <div className={styles.category}>
+              <h3>Metrics & Reporting</h3>
+              <p className={styles.service}>
+                In this workshop, you'll learn everything you need to know about
+                metrics and reporting for developer experience, as well as how
+                to put it into action.
+              </p>
+              <Link href="/labs/metrics-and-reporting">
+                <a className={styles.serviceLink}>Learn more</a>
+              </Link>
+            </div>
+          </div>
+          <div className={`${styles.categoryContainer} gradient`}>
+            <div className={styles.category}>
+              <h3>Content Creation</h3>
+              <p className={styles.service}>
+                From technical writing to live streaming, this workshop will get
+                you up to speed on how to create high-quality content
+                consistently.
+              </p>
+              <Link href="/labs/content-creation">
+                <a className={styles.serviceLink}>Learn more</a>
+              </Link>
+            </div>
+          </div>
+          <div className={`${styles.categoryContainer} gradient`}>
+            <div className={styles.category}>
+              <h3>Running Online Communities</h3>
+              <p className={styles.service}>
+                Learn everything you need to know about running a healthy and
+                safe online community: moderation, bots, measuring engagement,
+                and more.
+              </p>
+              <Link href="/labs/program-management-and-automation">
+                <a className={styles.serviceLink}>Learn more</a>
+              </Link>
+            </div>
+          </div>
+          <div className={`${styles.categoryContainer} gradient`}>
+            <div className={styles.category}>
+              <h3>Program Management & Automation</h3>
+              <p className={styles.service}>
+                Launching is the easy part. In this workshop, you'll learn how
+                to manage and scale your initiatives without sacrificing your
+                time.
+              </p>
+              <Link href="/labs/program-management-and-automation">
+                <a className={styles.serviceLink}>Learn more</a>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
       <SectionDivider />
       <div className={styles.section}>
-        <h2>For Individuals</h2>
+        <h2>Individualized Training</h2>
+        <div className={styles.services}>
+          <div className={`${styles.categoryContainer} gradient`}>
+            <div className={styles.category}>
+              <h3>Developer Advocacy</h3>
+              <p className={styles.service}>
+                Learn how to maximize your impact as a developer advocate with
+                this four week immersive program where you'll learn everything
+                about the developer advocate role and how to be successful in
+                it.
+              </p>
+              <Link href="/training/developer-advocacy">
+                <a className={styles.serviceLink}>Learn more</a>
+              </Link>
+            </div>
+          </div>
+          <div className={`${styles.categoryContainer} gradient`}>
+            <div className={styles.category}>
+              <h3>Community Management</h3>
+              <p className={styles.service}>
+                Learn everything you need to know about running a successful
+                online community. From tracking engagement to community
+                strategy, this four week immersive course will have you ready.
+              </p>
+              <Link href="/training/developer-advocacy">
+                <a className={styles.serviceLink}>Learn more</a>
+              </Link>
+            </div>
+          </div>
+          <div className={`${styles.categoryContainer} gradient`}>
+            <div className={styles.category}>
+              <h3>DevRel Management</h3>
+              <p className={styles.service}>
+                Learn what it takes to run a successful developer relations
+                team. This four week immersive course will prepare you for your
+                next (or current) management position.
+              </p>
+              <Link href="/training/developer-advocacy">
+                <a className={styles.serviceLink}>Learn more</a>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
       <SectionDivider />
       <div className={styles.section}>

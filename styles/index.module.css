@@ -15,8 +15,7 @@
 }
 
 .section h2 {
-  font-weight: 800;
-  text-transform: uppercase;
+  font-weight: 600;
   display: inline-block;
   margin-bottom: 64px;
   color: var(--gradient-start);
@@ -47,21 +46,36 @@
 }
 
 .category h3 {
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 0.9rem;
+  font-weight: 800;
   color: var(--gradient-end);
   text-transform: uppercase;
   margin-bottom: 8px;
 }
 
-.category p {
+.category {
   font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.category p {
   margin-bottom: 16px;
 }
 
 .serviceLink {
   margin-top: auto;
   display: block;
+  background: var(--gradient-start);
+  color: var(--background);
+  padding: 4px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.serviceLink:hover {
+  color: var(--background);
+  background-color: var(--gradient-end);
 }
 
 .learnMore {
