@@ -13,7 +13,7 @@ export default function Index() {
       </div>
       <SectionDivider />
       <div className={styles.section}>
-        <h2>Services</h2>
+        <h2 id="services">Services</h2>
         <div className={styles.services}>
           <div className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
@@ -140,7 +140,7 @@ export default function Index() {
       </div>
       <SectionDivider />
       <div className={styles.section}>
-        <h2>Level Up with Labs</h2>
+        <h2 id="labs">Level Up with Labs</h2>
         <div className={styles.services}>
           <div className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
@@ -244,7 +244,7 @@ export default function Index() {
       </div>
       <SectionDivider />
       <div className={styles.section}>
-        <h2>About Me</h2>
+        <h2 id="about">About Me</h2>
         <div className={styles.learnMore}>
           <img className={styles.profilePic} src="/profile-pic-squircle.png" />
           <p>

@@ -61,7 +61,7 @@
 .category p {
   margin-bottom: 16px;
 }
-
+/*
 .serviceLink {
   margin-top: auto;
   display: block;
@@ -76,6 +76,12 @@
 .serviceLink:hover {
   color: var(--background);
   background-color: var(--gradient-end);
+} */
+
+.serviceLink {
+  margin-top: auto;
+  display: block;
+  text-decoration: none;
 }
 
 .learnMore {
