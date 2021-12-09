@@ -222,7 +222,7 @@ export default function Index() {
                 online community. From tracking engagement to community
                 strategy, this four week immersive course will have you ready.
               </p>
-              <Link href="/training/developer-advocacy">
+              <Link href="/training/community-management">
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
@@ -235,7 +235,7 @@ export default function Index() {
                 team. This four week immersive course will prepare you for your
                 next (or current) management position.
               </p>
-              <Link href="/training/developer-advocacy">
+              <Link href="/training/devrel-management">
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>

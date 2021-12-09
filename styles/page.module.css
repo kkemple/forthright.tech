@@ -6,7 +6,11 @@
 .service h1 {
   font-weight: 800;
   color: var(--gradient-start);
-  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.service h2 {
+  color: var(--gradient-end);
   margin-bottom: 8px;
 }
 

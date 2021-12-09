@@ -1,7 +1,13 @@
-import styles from "@styles/page.module.css";
+import pStyles from "@styles/page.module.css";
+import spStyles from "@styles/services-page.module.css";
 import SectionDivider from "@components/SectionDivider";
 
 export default function Audits() {
+  const styles = {
+    ...pStyles,
+    ...spStyles,
+  };
+
   return (
     <>
       <div className={styles.service}>
@@ -13,6 +19,20 @@ export default function Audits() {
         </p>
       </div>
       <SectionDivider />
+      <div className={styles.service}>
+        <h2 className={styles.howItWorksTitle}>How It Works</h2>
+        <div className={styles.howItWorks}>
+          <div className={`${styles.stepContainer} gradient`}>
+            <div className={styles.step}>Discover</div>
+          </div>
+          <div className={`${styles.stepContainer} gradient`}>
+            <div className={styles.step}>Build</div>
+          </div>
+          <div className={`${styles.stepContainer} gradient`}>
+            <div className={styles.step}>Report</div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
