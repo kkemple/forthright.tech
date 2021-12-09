@@ -17,10 +17,25 @@ export default function Index() {
         <div className={styles.services}>
           <div className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
+              <h3>Strategy</h3>
+              <p className={styles.service}>
+                Whether you're just starting, or looking for some organizational
+                redesign, I'll help you figure out precisely who you'll need and
+                what they'll need to succeed.
+              </p>
+              <Link href="/services/strategy">
+                <a className={styles.serviceLink}>Learn more</a>
+              </Link>
+            </div>
+          </div>
+          <div className={`${styles.categoryContainer} gradient`}>
+            <div className={styles.category}>
               <h3>Content</h3>
               <p className={styles.service}>
-                No matter your content needs, I can help you figure out where to
-                focus your efforts and how to measure success.
+                You have a lot of different content needs, but you want a
+                cohesive strategy. I'll help you figure out what to produce,
+                what content channels you should focus on, and how to measure
+                impact and distribution.
               </p>
               <Link href="/services/content">
                 <a className={styles.serviceLink}>Learn more</a>
@@ -31,8 +46,9 @@ export default function Index() {
             <div className={styles.category}>
               <h3>Community</h3>
               <p className={styles.service}>
-                Developers want want community, not tradional marketing. I'll
-                help you plan and execute your go-to-community strategy.
+                Developers want community, not traditional marketing. I'll help
+                you plan and execute your go-to-community strategy so you can
+                maximize your developer reach.
               </p>
               <Link href="/services/community">
                 <a className={styles.serviceLink}>Learn more</a>
@@ -43,9 +59,9 @@ export default function Index() {
             <div className={styles.category}>
               <h3>Events</h3>
               <p className={styles.service}>
-                Developers expect a lot from conferences and events. From event
-                infrastructure to content themeing, I'll help you plan and
-                execute your next event.
+                Developers expect a lot from conferences and events. From
+                infrastructure to content themes, I'll help you plan and execute
+                your next event.
               </p>
               <Link href="/services/events">
                 <a className={styles.serviceLink}>Learn more</a>
@@ -54,57 +70,68 @@ export default function Index() {
           </div>
           <div className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
-              <h3>Champions Program</h3>
+              <h3>Programs</h3>
               <p className={styles.service}>
                 Motivate and reward your developer community with a champion,
                 ambassador, or MVP program.
               </p>
-              <Link href="/services/champions-program">
+              <Link href="/services/programs">
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
           </div>
           <div className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
-              <h3>Developer Experience Audits</h3>
+              <h3>Audits</h3>
               <p className={styles.service}>
-                Discover friction in developer workflows. I'll work with you to
-                discover your core developer workflows and provide a detailed
-                audit with actionable steps to improve time-to-value for
-                developers.
+                Discover friction with developer experience audits. I'll work
+                with you to discover your core developer workflows and provide
+                detailed audits with actionable steps to improve time-to-value
+                for developers.
               </p>
-              <Link href="/services/developer-experience-audits">
+              <Link href="/services/audits">
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
           </div>
           <div className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
-              <h3>Developer Research</h3>
+              <h3>Research</h3>
               <p className={styles.service}>
-                Knowing who the developers are in your ecosystem helps you build
-                the right things. I help you understand the developer personas
-                in your ecosystem and what they need.
+                Understand how developers are using your tools and services.
+                I'll help you discover the most active developer personas in
+                your ecosystem and what they need from you.
               </p>
-              <Link href="/services/developer-research">
+              <Link href="/services/research">
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
           </div>
           <div className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
-              <h3>Emergency Staffing</h3>
+              <h3>Documentation</h3>
               <p className={styles.service}>
-                Sometimes the unexpected happens, sometimes you're struggling to
-                fill a role. No matter what your situation is, I can jump in,
-                providing immediate value and help keep things running smoothly
-                while you work to fill the role.
+                Quality documentation can often be the differentiator for
+                developer adoption. I can help you identify and address
+                information gaps and inconsistencies in tutorials and guides, as
+                well as information architecture issues.
               </p>
-              <Link
-                className={styles.serviceLink}
-                href="/services/emergency-staffing"
-              >
-                Learn more
+              <Link href="/services/education">
+                <a className={styles.serviceLink}>Learn more</a>
+              </Link>
+            </div>
+          </div>
+          <div className={`${styles.categoryContainer} gradient`}>
+            <div className={styles.category}>
+              <h3>Staffing</h3>
+              <p className={styles.service}>
+                Sometimes the unexpected happens. No matter what your situation
+                is, I can jump in and help keep things running smoothly while
+                you work to fill the role, or I can help with sourcing
+                incredible talent.
+              </p>
+              <Link href="/services/staffing">
+                <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
           </div>
