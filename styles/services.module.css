@@ -1,0 +1,17 @@
+.service {
+  margin-top: 132px;
+  padding: 64px;
+}
+
+.service h1 {
+  font-weight: 800;
+  color: var(--gradient-start);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.slogan {
+  width: 60vw;
+  margin-bottom: 196px;
+  font-size: 2.441rem;
+}

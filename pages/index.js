@@ -85,9 +85,9 @@ export default function Index() {
               <h3>Audits</h3>
               <p className={styles.service}>
                 Discover friction with developer experience audits. I'll work
-                with you to discover your core developer workflows and provide
-                detailed audits with actionable steps to improve time-to-value
-                for developers.
+                through your core developer workflows and provide detailed
+                reports with actionable steps to improve time-to-value for
+                developers.
               </p>
               <Link href="/services/audits">
                 <a className={styles.serviceLink}>Learn more</a>
