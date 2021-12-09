@@ -188,9 +188,3 @@ hr {
     font-size: 15px;
   }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  html {
-    scroll-behavior: smooth;
-  }
-}

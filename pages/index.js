@@ -13,15 +13,16 @@ export default function Index() {
       </div>
       <SectionDivider />
       <div className={styles.section}>
-        <h2>How Can I Help?</h2>
+        <h2>Services</h2>
         <div className={styles.services}>
           <div className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Strategy</h3>
               <p className={styles.service}>
-                Whether you're just starting, or looking for some organizational
-                redesign, I'll help you figure out precisely who you'll need and
-                what they'll need to succeed.
+                Whether you're just starting on your developer experience
+                journey, or looking for some organizational redesign, I'll help
+                you figure out precisely who you'll need and what they'll need
+                to succeed.
               </p>
               <Link href="/services/strategy">
                 <a className={styles.serviceLink}>Learn more</a>
@@ -116,7 +117,7 @@ export default function Index() {
                 information gaps and inconsistencies in tutorials and guides, as
                 well as information architecture issues.
               </p>
-              <Link href="/services/education">
+              <Link href="/services/documentation">
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
@@ -139,7 +140,7 @@ export default function Index() {
       </div>
       <SectionDivider />
       <div className={styles.section}>
-        <h2>Level Up Your Team with Labs</h2>
+        <h2>Level Up with Labs</h2>
         <div className={styles.services}>
           <div className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
