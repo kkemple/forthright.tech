@@ -33,7 +33,7 @@ export default function Header() {
               <Link href="/media">Media</Link>
             </li>
             <li onClick={toggle}>
-              <Link href="/about">About</Link>
+              <Link href="/#about">About</Link>
             </li>
             <li onClick={toggle}>
               <Link href="https://achievements.theworst.dev">Work</Link>

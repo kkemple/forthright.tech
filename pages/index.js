@@ -147,8 +147,8 @@ export default function Index() {
               <h3>Metrics & Reporting</h3>
               <p className={styles.service}>
                 In this workshop, you'll learn everything you need to know about
-                metrics and reporting for developer experience, as well as how
-                to put it into action.
+                metrics and reporting for your team, as well as how to put it
+                into action.
               </p>
               <Link href="/labs/metrics-and-reporting">
                 <a className={styles.serviceLink}>Learn more</a>
@@ -176,7 +176,7 @@ export default function Index() {
                 safe online community: moderation, bots, measuring engagement,
                 and more.
               </p>
-              <Link href="/labs/program-management-and-automation">
+              <Link href="/labs/running-online-communities">
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
@@ -198,7 +198,7 @@ export default function Index() {
       </div>
       <SectionDivider />
       <div className={styles.section}>
-        <h2>Individualized Training</h2>
+        <h2 id="training">Individualized Training</h2>
         <div className={styles.services}>
           <div className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
