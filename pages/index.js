@@ -12,8 +12,8 @@ export default function Index() {
         </h1>
       </div>
       <SectionDivider />
-      <div className={styles.section}>
-        <h2 id="services">Services</h2>
+      <div id="services" className={styles.section}>
+        <h2>Services</h2>
         <ul className={styles.services}>
           <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
@@ -138,8 +138,8 @@ export default function Index() {
         </ul>
       </div>
       <SectionDivider />
-      <div className={styles.section}>
-        <h2 id="labs">Level Up with Labs</h2>
+      <div id="labs" className={styles.section}>
+        <h2>Level Up with Labs</h2>
         <ul className={styles.services}>
           <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
@@ -210,8 +210,8 @@ export default function Index() {
         </ul>
       </div>
       <SectionDivider />
-      <div className={styles.section}>
-        <h2 id="training">Individualized Training</h2>
+      <div id="training" className={styles.section}>
+        <h2>Individualized Training</h2>
         <ul className={styles.services}>
           <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
@@ -256,8 +256,8 @@ export default function Index() {
         </ul>
       </div>
       <SectionDivider />
-      <div className={styles.section}>
-        <h2 id="about">About Me</h2>
+      <div id="about" className={styles.section}>
+        <h2>About Me</h2>
         <div className={styles.learnMore}>
           <img className={styles.profilePic} src="/profile-pic-squircle.png" />
           <p>
@@ -282,10 +282,6 @@ export default function Index() {
             </span>
           </p>
         </div>
-      </div>
-      <SectionDivider />
-      <div className={styles.section}>
-        <h2 className="gradient gradient-text">What Others Are Saying</h2>
       </div>
     </>
   );
