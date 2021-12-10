@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import pStyles from "@styles/page.module.css";
 import spStyles from "@styles/services-page.module.css";
 import SectionDivider from "@components/SectionDivider";

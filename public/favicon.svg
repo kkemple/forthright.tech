@@ -1,15 +1,15 @@
 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
 <style>
-  circle {
+  path {
     fill: url(#paint0_linear_1079_552);
   }
   @media (prefers-color-scheme: dark) {
-    circle {
+    path {
       fill: url(#paint0_linear_1079_549);
     }
   }
 </style>
-<circle cx="32" cy="32" r="32"/>
+<path d="M20.3332 13.9141L24.4276 21.8498H52.5506L46.8721 32.4331H29.9272L38.5014 49.1341L32.0129 61.75L2 3H62L56.5345 13.9141H20.3332Z" />
 <defs>
 <linearGradient id="paint0_linear_1079_549" x1="-8.49249e-08" y1="32.0458" x2="64" y2="32.0458" gradientUnits="userSpaceOnUse">
 <stop stop-color="#fb07a9"/>

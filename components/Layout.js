@@ -3,9 +3,9 @@ import Header from "@components/Header";
 import Footer from "@components/Footer";
 
 export default function Layout({ darkModeActive, children }) {
-  const title = "Forthright";
+  const title = "Home / Forthright";
   const description =
-    "Helping individuals, teams, and companies create better developer experiences.";
+    "Helping companies, teams, and individuals create better developer experiences.";
 
   return (
     <div className={`${darkModeActive && "dark"} app`}>
@@ -17,13 +17,11 @@ export default function Layout({ darkModeActive, children }) {
         <meta name="og:title" content={title} />
         <meta name="og:description" content={description} />
         <meta name="og:type" content="website" />
-        <meta name="og:image" content="" />
+        <meta name="og:image" content="/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@theworstdev" />
         <meta name="twitter:title" content={"Hey, I'm Kurt!"} />
         <meta name="twitter:description" content={description} />
-        <link rel="prefetch" href="/hidden-leaf-village-day.gif" />
-        <link rel="prefetch" href="/hidden-leaf-village-night.gif" />
       </Head>
       <Header />
       <div className="content">{children}</div>
