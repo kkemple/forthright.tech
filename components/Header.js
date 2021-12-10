@@ -36,7 +36,9 @@ export default function Header() {
               <Link href="/#about">About</Link>
             </li>
             <li onClick={toggle}>
-              <Link href="https://achievements.theworst.dev">Work</Link>
+              <Link href="https://achievements.theworst.dev/theworstdev/collections/9406">
+                Work
+              </Link>
             </li>
           </ul>
         </nav>

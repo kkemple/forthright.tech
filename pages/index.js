@@ -14,8 +14,8 @@ export default function Index() {
       <SectionDivider />
       <div className={styles.section}>
         <h2 id="services">Services</h2>
-        <div className={styles.services}>
-          <div className={`${styles.categoryContainer} gradient`}>
+        <ul className={styles.services}>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Strategy</h3>
               <p className={styles.service}>
@@ -28,8 +28,8 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-          <div className={`${styles.categoryContainer} gradient`}>
+          </li>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Content</h3>
               <p className={styles.service}>
@@ -42,8 +42,8 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-          <div className={`${styles.categoryContainer} gradient`}>
+          </li>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Community</h3>
               <p className={styles.service}>
@@ -55,8 +55,8 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-          <div className={`${styles.categoryContainer} gradient`}>
+          </li>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Events</h3>
               <p className={styles.service}>
@@ -68,8 +68,8 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-          <div className={`${styles.categoryContainer} gradient`}>
+          </li>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Programs</h3>
               <p className={styles.service}>
@@ -80,8 +80,8 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-          <div className={`${styles.categoryContainer} gradient`}>
+          </li>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Audits</h3>
               <p className={styles.service}>
@@ -94,8 +94,8 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-          <div className={`${styles.categoryContainer} gradient`}>
+          </li>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Research</h3>
               <p className={styles.service}>
@@ -107,8 +107,8 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-          <div className={`${styles.categoryContainer} gradient`}>
+          </li>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Documentation</h3>
               <p className={styles.service}>
@@ -121,8 +121,8 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-          <div className={`${styles.categoryContainer} gradient`}>
+          </li>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Staffing</h3>
               <p className={styles.service}>
@@ -135,14 +135,14 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
       <SectionDivider />
       <div className={styles.section}>
         <h2 id="labs">Level Up with Labs</h2>
-        <div className={styles.services}>
-          <div className={`${styles.categoryContainer} gradient`}>
+        <ul className={styles.services}>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Metrics & Reporting</h3>
               <p className={styles.service}>
@@ -154,8 +154,8 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-          <div className={`${styles.categoryContainer} gradient`}>
+          </li>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Content Creation</h3>
               <p className={styles.service}>
@@ -167,8 +167,8 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-          <div className={`${styles.categoryContainer} gradient`}>
+          </li>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Running Online Communities</h3>
               <p className={styles.service}>
@@ -180,8 +180,8 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-          <div className={`${styles.categoryContainer} gradient`}>
+          </li>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Program Management & Automation</h3>
               <p className={styles.service}>
@@ -193,14 +193,14 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
       <SectionDivider />
       <div className={styles.section}>
         <h2 id="training">Individualized Training</h2>
-        <div className={styles.services}>
-          <div className={`${styles.categoryContainer} gradient`}>
+        <ul className={styles.services}>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Developer Advocacy</h3>
               <p className={styles.service}>
@@ -213,8 +213,8 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-          <div className={`${styles.categoryContainer} gradient`}>
+          </li>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>Community Management</h3>
               <p className={styles.service}>
@@ -226,8 +226,8 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-          <div className={`${styles.categoryContainer} gradient`}>
+          </li>
+          <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>DevRel Management</h3>
               <p className={styles.service}>
@@ -239,8 +239,8 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
       <SectionDivider />
       <div className={styles.section}>
@@ -263,7 +263,9 @@ export default function Index() {
             . He's led developer relations and engineering teams at Apollo, AWS,
             and MLS.
             <span>
-              <a href="https://achievements.theworst.dev/">See my work</a>
+              <a href="https://achievements.theworst.dev/theworstdev/collections/9406">
+                See my work
+              </a>
             </span>
           </p>
         </div>

@@ -20,7 +20,7 @@ export default function Layout({ darkModeActive, children }) {
         <meta name="og:image" content="/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@theworstdev" />
-        <meta name="twitter:title" content={"Hey, I'm Kurt!"} />
+        <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
       </Head>
       <Header />

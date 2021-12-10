@@ -9,9 +9,18 @@ export default function Audits() {
     ...pStyles,
     ...spStyles,
   };
+  const title = "Services / Audits / Forthright";
+  const description =
+    "Discover friction with developer experience audits. I'll work through your core developer workflows and provide detailed reports with actionable steps to improve time-to-value for developers.";
 
   return (
     <>
+      <Head>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <meta name="og:title" content={title} />
+        <meta name="og:description" content={description} />
+      </Head>
       <div className={styles.service}>
         <h1>Audits</h1>
         <p className={styles.slogan}>
