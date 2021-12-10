@@ -145,11 +145,25 @@ export default function Index() {
             <div className={styles.category}>
               <h3>Metrics & Reporting</h3>
               <p className={styles.service}>
-                In this workshop, you'll learn everything you need to know about
-                metrics and reporting for your team, as well as how to put it
-                into action.
+                In this workshop, you'll learn the ins and outs of metrics, what
+                your team should measure based on your goals, and how to gain
+                trust in your metrics.
               </p>
               <Link href="/labs/metrics-and-reporting">
+                <a className={styles.serviceLink}>Learn more</a>
+              </Link>
+            </div>
+          </li>
+          <li className={`${styles.categoryContainer} gradient`}>
+            <div className={styles.category}>
+              <h3>Developer Experience Audits</h3>
+              <p className={styles.service}>
+                Remove friction from developers' workflows with developer
+                experience audits. Learn how to give effective and consistent
+                feedback to internal teams and get the buy-in you need to make
+                change happen.
+              </p>
+              <Link href="/labs/developer-experience-audits">
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>

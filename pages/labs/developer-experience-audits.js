@@ -30,35 +30,29 @@ export default function ContentCreation() {
         <h2 className={styles.howItWorksTitle}>What You'll Learn</h2>
         <div className={styles.howItWorks}>
           <div className={styles.step}>
-            <h3>Content Channels</h3>
+            <h3>What They Are</h3>
             <p>
-              You'll learn what content channels developers are using today, how
-              your team can reach them effectively, and how to choose the right
-              channel for your content.
+              As a company grows, it becomes increasingly difficult to address
+              product friction. DX Audits is a framework that helps make
+              providing feedback repeatable, teachable, and reportable.
             </p>
           </div>
           <div className={styles.step}>
-            <h3>Content Scoping</h3>
+            <h3>When To Use Them</h3>
             <p>
-              Learn how to make sure every piece of content your team creates is
-              consistent, has a clear goal and call-to-action, and has just the
-              right level of detail.
+              The goal of a DX audit is to document, report, and address product
+              friction by having a developer advocate experience a given
+              developer workflow, document and report their findings, and
+              surface actionable steps to take to reduce friction.
             </p>
           </div>
           <div className={styles.step}>
-            <h3>Content Planning</h3>
+            <h3>Gaining Adoption</h3>
             <p>
-              Be more intentional. I'll teach your team how plan ahead, work
-              cross-functionally to reduce duplicated effort, and how to run
-              effective content campaigns.
-            </p>
-          </div>
-          <div className={styles.step}>
-            <h3>Best Practices</h3>
-            <p>
-              I'll share all my tips and best practices for content creation
-              across multiple mediums, such as writing, video, giving talks, and
-              live streaming.
+              DX audits can be a vital tool in improving developer experience,
+              but if other teams aren't on board they lose a lot of their value.
+              Learn how to get other teams excited about dx audits and integrate
+              them into their workflows.
             </p>
           </div>
         </div>
