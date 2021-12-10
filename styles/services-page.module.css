@@ -1,26 +1,40 @@
 .howItWorks {
   display: flex;
   justify-content: space-around;
-  align-items: stretch;
+  align-items: flex-start;
 }
 
 .howItWorksTitle {
-  margin-bottom: 64px !important;
-}
-
-.stepContainer {
-  border-radius: 6px;
-  padding: 3px;
-  width: 300px;
+  margin-bottom: 96px !important;
+  text-align: center;
 }
 
 .step {
-  background-color: var(--background);
-  border-radius: 4px;
-  padding: 16px;
-  height: 100%;
+  flex: 1;
+  margin-left: 32px;
+  margin-right: 32px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: stretch;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.step:first-child {
+  margin-left: 0;
+}
+
+.step:last-child {
+  margin-right: 0;
+}
+
+.step h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 800;
+  color: var(--gradient-start);
+  margin-bottom: 24px;
 }
