@@ -23,11 +23,7 @@ export default function Events() {
       </Head>
       <div className={styles.service}>
         <h1>Events</h1>
-        <p className={styles.slogan}>
-          Developers expect a lot from conferences and events. From
-          infrastructure to content themes, I'll help you plan and execute your
-          next event.
-        </p>
+        <p className={styles.slogan}>{description}</p>
       </div>
       <SectionDivider />
       <div className={styles.service}>
@@ -37,21 +33,20 @@ export default function Events() {
             <h3>Plan</h3>
             <p>
               Set your goals. I'll help you figure out what you want to get out
-              of your event, how to run it, who you should target, and how to
-              message to the right audience.
-            </p>
-          </div>
-          <div className={styles.step}>
-            <h3>Execute</h3>
-            <p>
-              I'll provide you with a world class event playbook that will make
-              sure you're ready for event day(s). Including moderation, people
-              ops and outreach, marketing for your event, tracking engagement,
-              and more.
+              of your event, how you should run it, how to get sign ups, and how
+              to message to the right audience.
             </p>
           </div>
           <div className={styles.step}>
             <h3>Launch</h3>
+            <p>
+              I'll provide you with an event playbook that will make sure you're
+              ready for event day(s). The playbook includes best practices for
+              moderation, outreach, marketing, tracking engagement, and more.
+            </p>
+          </div>
+          <div className={styles.step}>
+            <h3>Execute</h3>
             <p>
               Get hands-on support leading up to and during your event. I'll be
               available to help you quickly resolve any issues you experience

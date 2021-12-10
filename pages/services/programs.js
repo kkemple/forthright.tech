@@ -9,7 +9,7 @@ export default function Programs() {
     ...pStyles,
     ...spStyles,
   };
-  const title = "Services / Audits / Forthright";
+  const title = "Services / Programs / Forthright";
   const description =
     "Motivate and reward your developer community with a champion, ambassador, or MVP program.";
 
@@ -23,40 +23,34 @@ export default function Programs() {
       </Head>
       <div className={styles.service}>
         <h1>Programs</h1>
-        <p className={styles.slogan}>
-          Motivate and reward your developer community with a champion,
-          ambassador, or MVP program.
-        </p>
+        <p className={styles.slogan}>{description}</p>
       </div>
       <SectionDivider />
       <div className={styles.service}>
         <h2 className={styles.howItWorksTitle}>How It Works</h2>
         <div className={styles.howItWorks}>
           <div className={styles.step}>
-            <h3>Discover</h3>
-            <p>
-              This is the work before the work. Discovery is where I'll gather
-              all the context needed to understand how developers are using your
-              platform and figure out what workflows need the most attention and
-              are most critical to your success.
-            </p>
-          </div>
-          <div className={styles.step}>
             <h3>Build</h3>
             <p>
-              I'll build with your platform by going through the developer
-              workflows from discovery and record my experience in friction
-              logs. I'll also include short-term and long-term actions you can
-              take to improve the developer experience.
+              I'll help you set up the infrastructure needed to support a
+              champions program, including a microsite, champions database, swag
+              system, onboarding and outreach content, and more.
             </p>
           </div>
           <div className={styles.step}>
-            <h3>Report</h3>
+            <h3>Launch</h3>
             <p>
-              You'll recieve a detailed report covering my experience building
-              with your platform and recommendations for addressing any friction
-              encountered during the audit. Action items will be priortized by
-              severity of the related friction and business goals.
+              I'll help you identify a diverse group of active developers in
+              your community for initial outreach and define the requirements
+              for acceptance into the champions program.
+            </p>
+          </div>
+          <div className={styles.step}>
+            <h3>Scale</h3>
+            <p>
+              You'll recieve a custom tailored champions program playbook with
+              tips, best practices, and programs to help you scale your
+              champions program beyond the first hundred members.
             </p>
           </div>
         </div>

@@ -24,42 +24,36 @@ export default function Content() {
       </Head>
       <div className={styles.service}>
         <h1>Content</h1>
-        <p className={styles.slogan}>
-          You have a lot of different content needs, but you want a cohesive
-          strategy. I'll help you figure out what to produce, what content
-          channels you should focus on, and how to measure impact and
-          distribution.
-        </p>
+        <p className={styles.slogan}>{description}</p>
       </div>
       <SectionDivider />
       <div className={styles.service}>
         <h2 className={styles.howItWorksTitle}>How It Works</h2>
         <div className={styles.howItWorks}>
           <div className={styles.step}>
-            <h3>Build</h3>
+            <h3>Aggregate</h3>
             <p>
-              First we'll set up the infrastructure you'll need to manage and
-              measure your community. Then we'll set up your virtual community
-              spaces and train your team(s) on all platforms and how to moderate
-              each. We'll also prepare a pre-launch marketing campaign.
+              You can't track what you don't record. First we'll set up a
+              content database so you can track, measure, and share all the
+              content created at your company and by your community.
             </p>
           </div>
           <div className={styles.step}>
-            <h3>Launch</h3>
+            <h3>Strategize</h3>
             <p>
-              Make your launch something to remember! We'll help you plan a
-              lauch event that will get the community hyped about your new
-              program and provide strategy on launch day/week/month activities
-              to get your community kicked off.
+              Time to make a plan. You'll get content campaign designs targeted
+              at your audience. Campaign designs include what content to
+              produce, what content channels you should target, and what
+              audiences to focus on first.
             </p>
           </div>
           <div className={styles.step}>
-            <h3>Scale</h3>
+            <h3>Produce</h3>
             <p>
-              You'll recieve a detailed plan that will help you grow your
-              community while continuing to foster engagement. You'll learn more
-              about the tools that will help you with your community, how to
-              build a team of community advocates and much more.
+              You'll recieve a content creation guide tailored to your needs.
+              The guide includes best practices for content creation across
+              mediums like writing, video, and live streaming and templates for
+              making sure your content is always consistent.
             </p>
           </div>
         </div>

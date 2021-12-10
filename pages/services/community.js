@@ -24,11 +24,7 @@ export default function Community() {
       </Head>
       <div className={styles.service}>
         <h1>Community</h1>
-        <p className={styles.slogan}>
-          Developers want community, not traditional marketing. I'll help you
-          plan and execute your go-to-community strategy so you can maximize
-          your developer reach.
-        </p>
+        <p className={styles.slogan}>{description}</p>
       </div>
       <SectionDivider />
       <div className={styles.service}>

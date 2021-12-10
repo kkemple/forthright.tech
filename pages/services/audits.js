@@ -23,11 +23,7 @@ export default function Audits() {
       </Head>
       <div className={styles.service}>
         <h1>Audits</h1>
-        <p className={styles.slogan}>
-          Discover friction with developer experience audits. I'll work through
-          your core developer workflows and provide detailed reports with
-          actionable steps to improve time-to-value for developers.
-        </p>
+        <p className={styles.slogan}>{description}</p>
       </div>
       <SectionDivider />
       <div className={styles.service}>

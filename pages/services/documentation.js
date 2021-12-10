@@ -17,12 +17,7 @@ export default function Documentation() {
     <>
       <div className={styles.service}>
         <h1>Documentation</h1>
-        <p className={styles.slogan}>
-          Quality documentation can often be the differentiator for developer
-          adoption. I can help you identify and address information gaps and
-          inconsistencies in tutorials and guides, as well as information
-          architecture issues.
-        </p>
+        <p className={styles.slogan}>{description}</p>
       </div>
       <SectionDivider />
       <div className={styles.service}>

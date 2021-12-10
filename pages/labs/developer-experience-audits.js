@@ -9,7 +9,7 @@ export default function ContentCreation() {
     ...pStyles,
     ...spStyles,
   };
-  const title = "Labs / Content Creation / Forthright";
+  const title = "Labs / Developer Experience Audits / Forthright";
   const description =
     "From technical writing to live streaming, this workshop will get you up to speed on how to create high-quality content consistently.";
 
@@ -22,7 +22,7 @@ export default function ContentCreation() {
         <meta name="og:description" content={description} />
       </Head>
       <div className={styles.service}>
-        <h1>Content Creation</h1>
+        <h1>Developer Experience Audits</h1>
         <p className={styles.slogan}>{description}</p>
       </div>
       <SectionDivider />

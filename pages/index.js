@@ -19,10 +19,9 @@ export default function Index() {
             <div className={styles.category}>
               <h3>Strategy</h3>
               <p className={styles.service}>
-                Whether you're just starting on your developer experience
-                journey, or looking for some organizational redesign, I'll help
-                you figure out precisely who you'll need and what they'll need
-                to succeed.
+                Whether you're starting on your developer experience journey, or
+                looking for some organizational redesign, I'll help you figure
+                out precisely who you'll need and what they'll need to succeed.
               </p>
               <Link href="/services/strategy">
                 <a className={styles.serviceLink}>Learn more</a>
