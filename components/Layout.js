@@ -17,7 +17,7 @@ export default function Layout({ darkModeActive, children }) {
         <meta name="og:title" content={title} />
         <meta name="og:description" content={description} />
         <meta name="og:type" content="website" />
-        <meta name="og:image" content="/og-image.png" />
+        <meta name="og:image" content="https://forthright.tech/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:creator" content="@theworstdev" />
         <meta name="twitter:title" content={title} />
