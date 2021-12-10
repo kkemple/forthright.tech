@@ -25,10 +25,10 @@ export default function Audits() {
           <div className={styles.step}>
             <h3>Discover</h3>
             <p>
-              This step is the work before the work. Discovery is where I'll
-              gather all the context needed to understand how developers are
-              using your platform and figure out what workflows need the most
-              attention and are most critical to your success.
+              This is the work before the work. Discovery is where I'll gather
+              all the context needed to understand how developers are using your
+              platform and figure out what workflows need the most attention and
+              are most critical to your success.
             </p>
           </div>
           <div className={styles.step}>
