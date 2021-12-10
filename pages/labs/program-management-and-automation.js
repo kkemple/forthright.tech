@@ -31,12 +31,12 @@ export default function ProgramManagementAutomation() {
         <h2 className={styles.howItWorksTitle}>What You'll Learn</h2>
         <div className={styles.howItWorks}>
           <div className={styles.step}>
-            <h3>Process Management</h3>
+            <h3>Process Optimization</h3>
             <p>
-              Never miss a beat. Learn how to use tools like Airtable to
-              organize and track your programs and initiatives so you can keep
-              them running smoothly without a significant time investment.
-              You'll also learn how to
+              Lock down your processes and reclaim your time. Learn how to use
+              tools like Airtable to organize, track, and report on your
+              programs and initiatives so you can keep them running smoothly
+              without a significant time investment.
             </p>
           </div>
           <div className={styles.step}>
