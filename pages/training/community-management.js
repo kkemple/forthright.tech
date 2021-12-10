@@ -11,7 +11,7 @@ export default function CommunityManagement() {
   };
   const title = "Training / Community Management / Forthright";
   const description =
-    "You'll learn what content channels developers are using today, how your team can reach them effectively, and how to choose the right channel for your content.";
+    "Learn everything you need to know about running a successful online community. From tracking engagement to community strategy, this four week immersive course will have you ready.";
 
   return (
     <>
@@ -30,35 +30,32 @@ export default function CommunityManagement() {
         <h2 className={styles.howItWorksTitle}>What You'll Learn</h2>
         <div className={styles.howItWorks}>
           <div className={styles.step}>
-            <h3>Content Channels</h3>
+            <h3>Discord</h3>
             <p>
-              You'll learn what content channels developers are using today, how
-              your team can reach them effectively, and how to choose the right
-              channel for your content.
+              You'll learn everything there is to know about running a Discord
+              server: moderation, permissions, bots, integrations, and more.
             </p>
           </div>
           <div className={styles.step}>
-            <h3>Content Scoping</h3>
+            <h3>Strategy</h3>
             <p>
-              Learn how to make sure every piece of content your team creates is
-              consistent, has a clear goal and call-to-action, and has just the
-              right level of detail.
+              Learn how to build your own go-to-community strategies and bring
+              developers closer into your orbit with the Orbit Model.
             </p>
           </div>
           <div className={styles.step}>
-            <h3>Content Planning</h3>
+            <h3>Activities</h3>
             <p>
-              Be more intentional. I'll teach your team how plan ahead, work
-              cross-functionally to reduce duplicated effort, and how to run
-              effective content campaigns.
+              Keep your community engaged and motivated with activites like
+              learning cohorts, practioners roles, demo days, and mini events.
             </p>
           </div>
           <div className={styles.step}>
-            <h3>Best Practices</h3>
+            <h3>Reporting</h3>
             <p>
-              I'll share all my tips and best practices for content creation
-              across multiple mediums, such as writing, video, giving talks, and
-              live streaming.
+              Make sure you're measuring what matters. I'll help you figure out
+              what engagement is important in your community and how to measure
+              it.
             </p>
           </div>
         </div>

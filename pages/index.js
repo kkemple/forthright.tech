@@ -240,7 +240,7 @@ export default function Index() {
               </Link>
             </div>
           </li>
-          <li className={`${styles.categoryContainer} gradient`}>
+          {/* <li className={`${styles.categoryContainer} gradient`}>
             <div className={styles.category}>
               <h3>DevRel Management</h3>
               <p className={styles.service}>
@@ -252,7 +252,7 @@ export default function Index() {
                 <a className={styles.serviceLink}>Learn more</a>
               </Link>
             </div>
-          </li>
+          </li> */}
         </ul>
       </div>
       <SectionDivider />

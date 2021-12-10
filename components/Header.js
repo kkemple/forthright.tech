@@ -26,12 +26,9 @@ export default function Header() {
         </h1>
         <nav className={styles.navContainer}>
           <ul className={styles.nav}>
-            <li onClick={toggle}>
-              <Link href="/writing">Writing</Link>
-            </li>
-            <li onClick={toggle}>
+            {/* <li onClick={toggle}>
               <Link href="/media">Media</Link>
-            </li>
+            </li> */}
             <li onClick={toggle}>
               <Link href="/#about">About</Link>
             </li>
@@ -39,6 +36,9 @@ export default function Header() {
               <Link href="https://achievements.theworst.dev/theworstdev/collections/9406">
                 Work
               </Link>
+            </li>
+            <li onClick={toggle}>
+              <Link href="https://theworst.dev">Blog</Link>
             </li>
           </ul>
         </nav>

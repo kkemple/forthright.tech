@@ -57,8 +57,8 @@ export default function RunningOnlineCommunities() {
             <h3>Reporting</h3>
             <p>
               Make sure you're measuring what matters. I'll help you figure out
-              what activities are important in your community and how to measure
-              them.
+              what engagement is important in your community and how to measure
+              it.
             </p>
           </div>
         </div>
