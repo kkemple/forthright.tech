@@ -11,7 +11,7 @@ export default function CommunityManagement() {
   };
   const title = "Training / Community Management / Forthright";
   const description =
-    "Learn everything you need to know about running a successful online community. From tracking engagement to community strategy, this four week immersive course will have you ready.";
+    "Learn everything you need to know about running a successful online community. From tracking engagement to community strategy, this four week immersive program will have you ready.";
 
   return (
     <>

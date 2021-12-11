@@ -1,6 +1,6 @@
 .service {
-  margin-top: 132px;
-  padding: 64px;
+  margin-top: var(--initial-margin-top);
+  padding: var(--main-padding);
 }
 
 .service h1 {
@@ -15,7 +15,11 @@
 }
 
 .slogan {
-  width: 60vw;
+  width: 100%;
+  max-width: 875px;
   margin-bottom: 196px;
+}
+
+.slogan h1 {
   font-size: 2.441rem;
 }

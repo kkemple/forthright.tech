@@ -11,7 +11,7 @@ export default function ContentCreation() {
   };
   const title = "Labs / Developer Experience Audits / Forthright";
   const description =
-    "From technical writing to live streaming, this workshop will get you up to speed on how to create high-quality content consistently.";
+    "Remove friction from developers' workflows with developer experience audits. Learn how to give effective and consistent feedback to internal teams and get the buy-in you need to make change happen..";
 
   return (
     <>

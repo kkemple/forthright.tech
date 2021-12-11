@@ -1,9 +1,9 @@
 .slogan {
-  margin-top: 132px;
-  padding: 64px;
-  width: 60vw;
-  margin-bottom: 196px;
-  font-size: 2.441rem;
+  margin-top: var(--initial-margin-top);
+  padding: var(--main-padding);
+  width: 100%;
+  max-width: 875px;
+  margin-bottom: var(--initial-margin-bottom);
 }
 
 .section {
@@ -113,4 +113,24 @@
   font-family: "Inter";
   font-weight: 600;
   text-decoration: none;
+}
+
+@media (max-width: 1280px) {
+  .section {
+    padding: 64px;
+  }
+
+  .slogan h1 {
+    font-size: 2.441rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .section {
+    padding: 64px;
+  }
+
+  .slogan h1 {
+    font-size: 1.6rem;
+  }
 }

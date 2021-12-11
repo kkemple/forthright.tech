@@ -31,19 +31,19 @@ export default function RunningOnlineCommunities() {
         <h2 className={styles.howItWorksTitle}>What You'll Learn</h2>
         <div className={styles.howItWorks}>
           <div className={styles.step}>
-            <h3>Moderation</h3>
-            <p>
-              Keep your community safe by ensuring you have a well organized
-              moderation strategy and response plan for code of conduct
-              violations.
-            </p>
-          </div>
-          <div className={styles.step}>
             <h3>Discord</h3>
             <p>
               Learn everything you need to know about running a Discord server.
               We'll cover channel architecture, permissions, bots, Discord
               events, and more.
+            </p>
+          </div>
+          <div className={styles.step}>
+            <h3>Moderation</h3>
+            <p>
+              Keep your community safe by ensuring you have a well organized
+              moderation strategy and response plan for code of conduct
+              violations.
             </p>
           </div>
           <div className={styles.step}>

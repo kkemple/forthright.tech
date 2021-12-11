@@ -131,6 +131,9 @@ a:active {
 }
 
 .app {
+  --initial-margin-top: 132px;
+  --initial-margin-bottom: 196px;
+  --main-padding: 64px;
   --background: #f7fafc;
   --text-color: #020203;
   --gradient-start: #7317e9;
@@ -182,9 +185,28 @@ hr {
   -moz-text-fill-color: transparent;
 }
 
+@media (max-width: 1280px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+
+  .app {
+    --initial-margin-top: 80px;
+    --initial-margin-bottom: 132px;
+    --main-padding: 32px;
+  }
+}
+
 @media (max-width: 720px) {
   html,
   body {
     font-size: 15px;
+  }
+
+  .app {
+    --main-padding: 16px;
+    --initial-margin-bottom: 66px;
+    --initial-margin-top: 42px;
   }
 }
