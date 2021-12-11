@@ -209,3 +209,14 @@ hr {
     --main-title-width: 90vw;
   }
 }
+
+@media not all and (min-resolution: 0.001dpcm) {
+  .gradient-text {
+    background: none !important;
+    -webkit-background-clip: none;
+    -moz-background-clip: none;
+    background-clip: none;
+    -webkit-text-fill-color: var(--gradient-start);
+    -moz-text-fill-color: var(--gradient-start);
+  }
+}
