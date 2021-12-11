@@ -3,7 +3,21 @@
   overflow: hidden;
   position: relative;
   background: var(--divider-image) repeat top left;
-  background-size: 350px; /* nice */
+  background-size: 350px;
   border-top: 2px solid var(--gradient-start);
   border-bottom: 2px solid var(--gradient-end);
+}
+
+@media (max-width: 1280px) {
+  .divider {
+    background-size: 260px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 720px) {
+  .divider {
+    background-size: 200px;
+    height: 150px;
+  }
 }

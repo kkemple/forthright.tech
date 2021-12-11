@@ -1,8 +1,7 @@
 .slogan {
   margin-top: var(--initial-margin-top);
   padding: var(--main-padding);
-  width: 100%;
-  max-width: 875px;
+  width: var(--main-title-width);
   margin-bottom: var(--initial-margin-bottom);
 }
 
@@ -63,22 +62,6 @@
 .category p {
   margin-bottom: 16px;
 }
-/*
-.serviceLink {
-  margin-top: auto;
-  display: block;
-  background: var(--gradient-start);
-  color: var(--background);
-  padding: 4px 16px;
-  border-radius: 20px;
-  text-decoration: none;
-  transition: background-color 0.2s ease;
-}
-
-.serviceLink:hover {
-  color: var(--background);
-  background-color: var(--gradient-end);
-} */
 
 .serviceLink {
   margin-top: auto;
@@ -117,20 +100,54 @@
 
 @media (max-width: 1280px) {
   .section {
-    padding: 64px;
+    padding: 128px 64px;
   }
 
   .slogan h1 {
     font-size: 2.441rem;
   }
+
+  .services {
+    grid-column-gap: 48px;
+    grid-row-gap: 48px;
+  }
+
+  .learnMore img {
+    width: 325px;
+  }
+}
+
+@media (max-width: 960px) {
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section h2 {
+    font-size: 1.953rem;
+  }
+
+  .learnMore {
+    display: block;
+  }
+
+  .learnMore img {
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 32px;
+  }
 }
 
 @media (max-width: 720px) {
   .section {
-    padding: 64px;
+    padding: 64px 36px;
   }
 
   .slogan h1 {
     font-size: 1.6rem;
+  }
+
+  .services {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

@@ -23,3 +23,29 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+@media (max-width: 960px) {
+  .container {
+    margin-top: 64px;
+  }
+
+  .links li {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    text-align: center;
+  }
+
+  .links {
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .links li {
+    font-size: 1.5rem;
+    margin-right: 0;
+  }
+}

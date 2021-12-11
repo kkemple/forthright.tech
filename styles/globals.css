@@ -85,25 +85,21 @@ body {
 h1 {
   font-size: 3.052rem;
   font-weight: 600;
-  /* text-shadow: 2px 2px 0 var(--text-shadow-color); */
 }
 
 h2 {
   font-size: 2.441rem;
   font-weight: 600;
-  /* text-shadow: 2px 2px 0 var(--text-shadow-color); */
 }
 
 h3 {
   font-size: 1.953rem;
   font-weight: 600;
-  /* text-shadow: 1px 1px 0 var(--text-shadow-color); */
 }
 
 h4 {
   font-size: 1.563rem;
   font-weight: 600;
-  /* text-shadow: 1px 1px 0 var(--text-shadow-color); */
 }
 
 h5 {
@@ -133,6 +129,7 @@ a:active {
 .app {
   --initial-margin-top: 132px;
   --initial-margin-bottom: 196px;
+  --main-title-width: 60vw;
   --main-padding: 64px;
   --background: #f7fafc;
   --text-color: #020203;
@@ -195,6 +192,7 @@ hr {
     --initial-margin-top: 80px;
     --initial-margin-bottom: 132px;
     --main-padding: 32px;
+    --main-title-width: 80vw;
   }
 }
 
@@ -208,5 +206,6 @@ hr {
     --main-padding: 16px;
     --initial-margin-bottom: 66px;
     --initial-margin-top: 42px;
+    --main-title-width: 90vw;
   }
 }

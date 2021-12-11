@@ -15,11 +15,24 @@
 }
 
 .slogan {
-  width: 100%;
-  max-width: 875px;
-  margin-bottom: 196px;
+  font-size: 2.441rem;
+  max-width: 60vw;
+  margin-bottom: var(--initial-margin-bottom);
 }
 
-.slogan h1 {
-  font-size: 2.441rem;
+@media (max-width: 1280px) {
+  .slogan {
+    font-size: 1.953rem;
+    max-width: 80vw;
+  }
+}
+
+@media (max-width: 720px) {
+  .service h1 {
+    font-size: 1.953rem;
+  }
+  .slogan {
+    font-size: 1.6rem;
+    max-width: 90vw;
+  }
 }
