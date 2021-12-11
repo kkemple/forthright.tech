@@ -1,0 +1,84 @@
+.header {
+  padding: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoAndNav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+.logo {
+  margin-right: 32px;
+  width: 48px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.toggle button {
+  width: 36px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 3px;
+}
+
+.nav {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  align-items: stretch;
+}
+
+.nav li {
+  display: flex;
+  margin-left: 8px;
+  margin-right: 8px;
+  font-family: "Inter";
+  text-transform: uppercase;
+}
+
+.nav li a {
+  padding: 0.2rem 0.3rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: var(--text-color);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  font-weight: 800;
+  transition: border-color 0.3s ease-out;
+  font-size: 14px;
+}
+
+.nav li a:hover {
+  border-color: var(--gradient-start);
+}
+
+@media (max-width: 1280px) {
+  .header {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 720px) {
+  .header {
+    padding: 16px;
+  }
+
+  .logo {
+    width: 36px;
+    margin-right: 14px;
+  }
+
+  .toggle button {
+    width: 28px;
+  }
+}

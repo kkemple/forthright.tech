@@ -1,0 +1,11 @@
+.card {
+  border-radius: 6px;
+  padding: 3px;
+}
+
+.content {
+  background-color: var(--background);
+  border-radius: 4px;
+  padding: 16px;
+  height: 100%;
+}

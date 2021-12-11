@@ -1,0 +1,153 @@
+.slogan {
+  margin-top: var(--initial-margin-top);
+  padding: var(--main-padding);
+  width: var(--main-title-width);
+  margin-bottom: var(--initial-margin-bottom);
+}
+
+.section {
+  padding: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section h2 {
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 64px;
+  color: var(--gradient-start);
+}
+
+.services {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 64px;
+  grid-row-gap: 64px;
+  list-style: none;
+  padding: 0;
+}
+
+.categoryContainer {
+  border-radius: 6px;
+  padding: 3px;
+}
+
+.category {
+  background-color: var(--background);
+  border-radius: 4px;
+  padding: 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.category h3 {
+  font-size: 0.9rem;
+  font-weight: 800;
+  color: var(--gradient-end);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.category {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.category p {
+  margin-bottom: 16px;
+}
+
+.serviceLink {
+  margin-top: auto;
+  display: block;
+  text-decoration: none;
+}
+
+.learnMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.learnMore img {
+  width: 400px;
+  margin-right: 64px;
+}
+
+.learnMore p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.learnMore span {
+  display: block;
+  margin-top: 16px;
+}
+
+.learnMore span a {
+  font-family: "Inter";
+  font-weight: 600;
+  text-decoration: none;
+}
+
+@media (max-width: 1280px) {
+  .section {
+    padding: 128px 64px;
+  }
+
+  .slogan h1 {
+    font-size: 2.441rem;
+  }
+
+  .services {
+    grid-column-gap: 48px;
+    grid-row-gap: 48px;
+  }
+
+  .learnMore img {
+    width: 325px;
+  }
+}
+
+@media (max-width: 960px) {
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section h2 {
+    font-size: 1.953rem;
+  }
+
+  .learnMore {
+    display: block;
+  }
+
+  .learnMore img {
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 720px) {
+  .section {
+    padding: 64px 36px;
+  }
+
+  .slogan h1 {
+    font-size: 1.6rem;
+  }
+
+  .services {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
