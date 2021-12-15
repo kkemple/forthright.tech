@@ -34,7 +34,7 @@ export default function DeveloperAdvocacy() {
             <p>
               Understand the value of developer advocacy and how to build
               strategies around the three key questions of the Developer
-              Advocacy Vaue Cycle.
+              Advocacy Value Cycle.
             </p>
           </div>
           <div className={styles.step}>
