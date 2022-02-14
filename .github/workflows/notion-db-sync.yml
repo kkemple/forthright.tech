@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # Runs every minute (see https://crontab.guru)
-    - cron: "* * * * *"
+    - cron: "*/5 * * * *"
 jobs:
   build:
     name: Run DB Sync
