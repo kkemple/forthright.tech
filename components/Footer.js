@@ -16,9 +16,6 @@ export default function Footer() {
           <li>
             <a href="https://polywork.com/theworstdev">Polywork</a>
           </li>
-          <li>
-            <a href="https://discord.gg/forthright">Discord</a>
-          </li>
         </ul>
         <p>Copyright {new Date().getFullYear()} © Kurtis Kemple.</p>
       </footer>
