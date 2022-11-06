@@ -11,7 +11,7 @@ export default function Footer() {
             <a href="mailto:inquiry@forthright.tech">Contact</a>
           </li>
           <li>
-            <a href="https://twitter.com/forthright_tech">Twitter</a>
+            <a href="https://twitter.com/theworstdev">Twitter</a>
           </li>
           <li>
             <a href="https://polywork.com/theworstdev">Polywork</a>
